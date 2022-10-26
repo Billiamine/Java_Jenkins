@@ -11,8 +11,4 @@ node {
 
 }
 
-    stage('TEST_') {
-        sh 'java affichage_build'
-
-}
 }
