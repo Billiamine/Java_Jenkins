@@ -10,8 +10,4 @@ node {
         sh 'java affichage_build.java'
 
 }
-    stage('TEST_') {
-        sh 'java affichage_build.java'
-
-}
 }
