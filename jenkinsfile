@@ -7,7 +7,7 @@ node {
    sh 'javac affichage_build.java'
 }
     stage('RUN_') {
-        sh 'java affichage_build.java'
+        sh 'java affichage_build'
 
 }
 }
