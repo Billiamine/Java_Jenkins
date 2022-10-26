@@ -3,11 +3,15 @@ node {
         git 'https://github.com/Billiamine/Java_Jenkins.git'
 
 }
-    stage('build') {
-   sh 'javac affichage.java'
+    stage('Build') {
+   sh 'javac affichage_build.java'
 }
-    stage('run') {
-        sh 'java afficahge'
+    stage('RUN_') {
+        sh 'java affichage_build.java'
+
+}
+    stage('TEST_') {
+        sh 'java affichage_build.java'
 
 }
 }
